@@ -5,3 +5,8 @@ metadata:
 spec:
   selector:
     app: webserver
+  ports:
+    - name: webserver
+      port: 80
+      protocol: TCP
+      targetPort: 8080
